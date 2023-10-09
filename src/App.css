@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.div2 {
+  display: none;
+}
+
+.div1:hover+.div2 {
+  display: block;
+}
+
+.div4 {
+  display: none;
+}
+
+.div3:hover+.div4 {
+  display: block;
+}
+
+.div9:hover+.div4 {
+  display: block;
+}
+
+.div6 {
+  display: none;
+}
+
+.div5:hover+.div6 {
+  display: block;
+}
+
+
+
+.bgx {
+  background: url(//images.ctfassets.net/rz1oowkt5gyp/7lTGeXbBRNRLaVk2MdBjtJ/99c266e…/white-wave-bg.svg) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
+}
+
+.s25 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+.s26 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.s1_heading {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 500;
+}
+
+.s1_text {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 400;
+}
+
+.myc {
+  fill: green;
+}
+
+.myc:hover {
+  fill: palevioletred;
+}
+
+.font4 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+.font7 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+.s3_font {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+
+.clr:hover {
+  color: #595ad4;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
